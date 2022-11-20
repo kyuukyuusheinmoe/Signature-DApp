@@ -1,0 +1,46 @@
+{
+  "name": "signature",
+  "version": "0.1.0",
+  "author": "kyukyusheinmoe97@gmail.com",
+  "private": true,
+  "dependencies": {
+    "bs58": "^5.0.0",
+    "btoa": "^1.2.1",
+    "buffer": "^6.0.3",
+    "ipfs-api": "^26.1.2",
+    "patch-package": "^6.5.0",
+    "postcss-normalize": "^10.0.1",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-scripts": "4.0.3 ",
+    "react-signature-canvas": "^1.0.6",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.4",
+    "web3": "1.0.0-beta.55"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "patch-package"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
